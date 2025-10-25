@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SSR SEO 分析工具
 
-## Getting Started
+这是一个基于 Next.js 构建的服务端渲染(SSR) SEO 分析工具，可以帮助您分析网页的SEO表现。
 
-First, run the development server:
+## 功能特性
+
+- 🔍 网页SEO分析
+- 📊 详细的SEO报告
+- ⚡ 服务端渲染优化
+- 📱 响应式设计
+- 🎨 现代化UI界面
+
+## 快速开始
+
+首先，安装依赖：
+
+```bash
+npm install
+```
+
+然后启动开发服务器：
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+在浏览器中打开 [http://localhost:3000](http://localhost:3000) 查看结果。
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 使用方法
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. 在首页输入要分析的网页URL
+2. 点击"开始分析"按钮或按回车键
+3. 等待分析完成
+4. 查看详细的SEO分析报告
 
-## Learn More
+## 技术栈
 
-To learn more about Next.js, take a look at the following resources:
+- Next.js 14
+- TypeScript
+- Tailwind CSS
+- React Hooks
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 部署
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+推荐使用 [Vercel Platform](https://vercel.com/new) 部署此应用。
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+查看 [Next.js 部署文档](https://nextjs.org/docs/app/building-your-application/deploying) 了解更多详情。
